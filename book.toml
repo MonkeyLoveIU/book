@@ -1,0 +1,21 @@
+[book]
+title = "book"
+authors = ["note"]
+language = "zh-CN"
+multilingual = false
+src = "src"
+
+[build]
+build-dir = "book"
+create-missing = false
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+mathjax-support = true
+additional-js = ["theme/math-compat.js", "theme/mermaid-init.js"]
+additional-css = ["theme/custom.css"]
+no-section-label = true
+
+[output.html.search]
+limit-results = 30
