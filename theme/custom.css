@@ -1,0 +1,10 @@
+/* Custom tweaks for math blocks and diagrams */
+.katex-display,
+.MathJax_Display {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+pre.mermaid {
+  background: transparent;
+}
